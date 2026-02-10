@@ -28,6 +28,10 @@ section{
 }
 
 /* mobile-nav */
+
+.mobile-logo{
+    display: none;
+}
 .mobile{
     display: none;
 }
@@ -893,6 +897,28 @@ section{
 
 
 @media (max-width: 768px) {
+
+    .mobile-logo{
+        display: block;
+        position: relative;
+        width: 95px;
+        z-index: 99;
+    }
+    .mobile-logo img{
+        position: absolute;
+        top: 0;
+        left:0 ;
+        padding: 10px;
+        
+    }
+     .hero{
+        justify-content: center;
+     }
+     .hero-content{
+        justify-self: center;
+     }
+
+
     .navbar{
         display:none;
     }
@@ -996,7 +1022,7 @@ section{
     .founder-name {
         text-align: center;
     }
-
+    
 }
 
 
