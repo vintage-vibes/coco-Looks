@@ -320,7 +320,7 @@ img{
 
 
 .service-content .img{
-   width: 40vw;               /* responsive width */
+   width: 50vw;               /* responsive width */
     max-width: 150px;          /* desktop max size */
     aspect-ratio: 1/1;     
     border-radius: 50%;
@@ -855,7 +855,7 @@ img{
 
 .specials-track img{
     width: 80%;
-    height: 50vh;
+    height: 90vh;
     object-fit: cover;
    
      object-position: center; 
@@ -1128,14 +1128,18 @@ img{
     /* services */
     .service-content {
         flex: 0 0 45%;      /* show 2 cards */
-        max-width: 65%;
-    }
+        max-width: 70%;
+        
+  
+    
+
      
 
     /* .service-container{
         grid-template-columns:repeat(1, 1fr);
        
     } */
+    }
     .about-container {
       flex-direction: column;
     }
